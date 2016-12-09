@@ -75,7 +75,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel uel
+                    Página 2
                 </div>
 
                 <div class="links">

@@ -12,5 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
 });
+
+Route::get('/pagina1', function () {
+    return view('pagina1');
+});
+
+Route::get('/pagina2', function () {
+    return view('pagina2');
+});
+
+Route::resource('crud', 'CrudControler');
+
+
+Route::resource('menu', 'MenuControler');
